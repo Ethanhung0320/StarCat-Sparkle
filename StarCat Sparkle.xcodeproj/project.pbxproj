@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAD7FC312B49AEBA00F2FE82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD7FC302B49AEBA00F2FE82 /* AppDelegate.swift */; };
+		AAD7FC332B49AEBA00F2FE82 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD7FC322B49AEBA00F2FE82 /* SceneDelegate.swift */; };
+		AAD7FC352B49AEBA00F2FE82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD7FC342B49AEBA00F2FE82 /* ViewController.swift */; };
+		AAD7FC382B49AEBA00F2FE82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAD7FC362B49AEBA00F2FE82 /* Main.storyboard */; };
+		AAD7FC3A2B49AEBC00F2FE82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAD7FC392B49AEBC00F2FE82 /* Assets.xcassets */; };
+		AAD7FC3D2B49AEBC00F2FE82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAD7FC3B2B49AEBC00F2FE82 /* LaunchScreen.storyboard */; };
+		AAD7FC482B49AEBC00F2FE82 /* StarCat_SparkleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD7FC472B49AEBC00F2FE82 /* StarCat_SparkleTests.swift */; };
+		AAD7FC522B49AEBC00F2FE82 /* StarCat_SparkleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD7FC512B49AEBC00F2FE82 /* StarCat_SparkleUITests.swift */; };
+		AAD7FC542B49AEBC00F2FE82 /* StarCat_SparkleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD7FC532B49AEBC00F2FE82 /* StarCat_SparkleUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAD7FC442B49AEBC00F2FE82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAD7FC252B49AEBA00F2FE82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAD7FC2C2B49AEBA00F2FE82;
+			remoteInfo = "StarCat Sparkle";
+		};
+		AAD7FC4E2B49AEBC00F2FE82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAD7FC252B49AEBA00F2FE82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAD7FC2C2B49AEBA00F2FE82;
+			remoteInfo = "StarCat Sparkle";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AAD7FC2D2B49AEBA00F2FE82 /* StarCat Sparkle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StarCat Sparkle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAD7FC302B49AEBA00F2FE82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AAD7FC322B49AEBA00F2FE82 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AAD7FC342B49AEBA00F2FE82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AAD7FC372B49AEBA00F2FE82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAD7FC392B49AEBC00F2FE82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAD7FC3C2B49AEBC00F2FE82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAD7FC3E2B49AEBC00F2FE82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAD7FC432B49AEBC00F2FE82 /* StarCat SparkleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "StarCat SparkleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAD7FC472B49AEBC00F2FE82 /* StarCat_SparkleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarCat_SparkleTests.swift; sourceTree = "<group>"; };
+		AAD7FC4D2B49AEBC00F2FE82 /* StarCat SparkleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "StarCat SparkleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAD7FC512B49AEBC00F2FE82 /* StarCat_SparkleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarCat_SparkleUITests.swift; sourceTree = "<group>"; };
+		AAD7FC532B49AEBC00F2FE82 /* StarCat_SparkleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarCat_SparkleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAD7FC2A2B49AEBA00F2FE82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD7FC402B49AEBC00F2FE82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD7FC4A2B49AEBC00F2FE82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAD7FC242B49AEBA00F2FE82 = {
+			isa = PBXGroup;
+			children = (
+				AAD7FC2F2B49AEBA00F2FE82 /* StarCat Sparkle */,
+				AAD7FC462B49AEBC00F2FE82 /* StarCat SparkleTests */,
+				AAD7FC502B49AEBC00F2FE82 /* StarCat SparkleUITests */,
+				AAD7FC2E2B49AEBA00F2FE82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAD7FC2E2B49AEBA00F2FE82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAD7FC2D2B49AEBA00F2FE82 /* StarCat Sparkle.app */,
+				AAD7FC432B49AEBC00F2FE82 /* StarCat SparkleTests.xctest */,
+				AAD7FC4D2B49AEBC00F2FE82 /* StarCat SparkleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAD7FC2F2B49AEBA00F2FE82 /* StarCat Sparkle */ = {
+			isa = PBXGroup;
+			children = (
+				AAD7FC302B49AEBA00F2FE82 /* AppDelegate.swift */,
+				AAD7FC322B49AEBA00F2FE82 /* SceneDelegate.swift */,
+				AAD7FC342B49AEBA00F2FE82 /* ViewController.swift */,
+				AAD7FC362B49AEBA00F2FE82 /* Main.storyboard */,
+				AAD7FC392B49AEBC00F2FE82 /* Assets.xcassets */,
+				AAD7FC3B2B49AEBC00F2FE82 /* LaunchScreen.storyboard */,
+				AAD7FC3E2B49AEBC00F2FE82 /* Info.plist */,
+			);
+			path = "StarCat Sparkle";
+			sourceTree = "<group>";
+		};
+		AAD7FC462B49AEBC00F2FE82 /* StarCat SparkleTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAD7FC472B49AEBC00F2FE82 /* StarCat_SparkleTests.swift */,
+			);
+			path = "StarCat SparkleTests";
+			sourceTree = "<group>";
+		};
+		AAD7FC502B49AEBC00F2FE82 /* StarCat SparkleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AAD7FC512B49AEBC00F2FE82 /* StarCat_SparkleUITests.swift */,
+				AAD7FC532B49AEBC00F2FE82 /* StarCat_SparkleUITestsLaunchTests.swift */,
+			);
+			path = "StarCat SparkleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAD7FC2C2B49AEBA00F2FE82 /* StarCat Sparkle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAD7FC572B49AEBC00F2FE82 /* Build configuration list for PBXNativeTarget "StarCat Sparkle" */;
+			buildPhases = (
+				AAD7FC292B49AEBA00F2FE82 /* Sources */,
+				AAD7FC2A2B49AEBA00F2FE82 /* Frameworks */,
+				AAD7FC2B2B49AEBA00F2FE82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "StarCat Sparkle";
+			productName = "StarCat Sparkle";
+			productReference = AAD7FC2D2B49AEBA00F2FE82 /* StarCat Sparkle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAD7FC422B49AEBC00F2FE82 /* StarCat SparkleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAD7FC5A2B49AEBC00F2FE82 /* Build configuration list for PBXNativeTarget "StarCat SparkleTests" */;
+			buildPhases = (
+				AAD7FC3F2B49AEBC00F2FE82 /* Sources */,
+				AAD7FC402B49AEBC00F2FE82 /* Frameworks */,
+				AAD7FC412B49AEBC00F2FE82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAD7FC452B49AEBC00F2FE82 /* PBXTargetDependency */,
+			);
+			name = "StarCat SparkleTests";
+			productName = "StarCat SparkleTests";
+			productReference = AAD7FC432B49AEBC00F2FE82 /* StarCat SparkleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AAD7FC4C2B49AEBC00F2FE82 /* StarCat SparkleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAD7FC5D2B49AEBC00F2FE82 /* Build configuration list for PBXNativeTarget "StarCat SparkleUITests" */;
+			buildPhases = (
+				AAD7FC492B49AEBC00F2FE82 /* Sources */,
+				AAD7FC4A2B49AEBC00F2FE82 /* Frameworks */,
+				AAD7FC4B2B49AEBC00F2FE82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAD7FC4F2B49AEBC00F2FE82 /* PBXTargetDependency */,
+			);
+			name = "StarCat SparkleUITests";
+			productName = "StarCat SparkleUITests";
+			productReference = AAD7FC4D2B49AEBC00F2FE82 /* StarCat SparkleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAD7FC252B49AEBA00F2FE82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					AAD7FC2C2B49AEBA00F2FE82 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					AAD7FC422B49AEBC00F2FE82 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = AAD7FC2C2B49AEBA00F2FE82;
+					};
+					AAD7FC4C2B49AEBC00F2FE82 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = AAD7FC2C2B49AEBA00F2FE82;
+					};
+				};
+			};
+			buildConfigurationList = AAD7FC282B49AEBA00F2FE82 /* Build configuration list for PBXProject "StarCat Sparkle" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAD7FC242B49AEBA00F2FE82;
+			productRefGroup = AAD7FC2E2B49AEBA00F2FE82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAD7FC2C2B49AEBA00F2FE82 /* StarCat Sparkle */,
+				AAD7FC422B49AEBC00F2FE82 /* StarCat SparkleTests */,
+				AAD7FC4C2B49AEBC00F2FE82 /* StarCat SparkleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAD7FC2B2B49AEBA00F2FE82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAD7FC3D2B49AEBC00F2FE82 /* LaunchScreen.storyboard in Resources */,
+				AAD7FC3A2B49AEBC00F2FE82 /* Assets.xcassets in Resources */,
+				AAD7FC382B49AEBA00F2FE82 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD7FC412B49AEBC00F2FE82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD7FC4B2B49AEBC00F2FE82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAD7FC292B49AEBA00F2FE82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAD7FC352B49AEBA00F2FE82 /* ViewController.swift in Sources */,
+				AAD7FC312B49AEBA00F2FE82 /* AppDelegate.swift in Sources */,
+				AAD7FC332B49AEBA00F2FE82 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD7FC3F2B49AEBC00F2FE82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAD7FC482B49AEBC00F2FE82 /* StarCat_SparkleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD7FC492B49AEBC00F2FE82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAD7FC542B49AEBC00F2FE82 /* StarCat_SparkleUITestsLaunchTests.swift in Sources */,
+				AAD7FC522B49AEBC00F2FE82 /* StarCat_SparkleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAD7FC452B49AEBC00F2FE82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAD7FC2C2B49AEBA00F2FE82 /* StarCat Sparkle */;
+			targetProxy = AAD7FC442B49AEBC00F2FE82 /* PBXContainerItemProxy */;
+		};
+		AAD7FC4F2B49AEBC00F2FE82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAD7FC2C2B49AEBA00F2FE82 /* StarCat Sparkle */;
+			targetProxy = AAD7FC4E2B49AEBC00F2FE82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AAD7FC362B49AEBA00F2FE82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAD7FC372B49AEBA00F2FE82 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AAD7FC3B2B49AEBC00F2FE82 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAD7FC3C2B49AEBC00F2FE82 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAD7FC552B49AEBC00F2FE82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AAD7FC562B49AEBC00F2FE82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAD7FC582B49AEBC00F2FE82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "StarCat Sparkle/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ethan.StarCat-Sparkle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAD7FC592B49AEBC00F2FE82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "StarCat Sparkle/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ethan.StarCat-Sparkle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AAD7FC5B2B49AEBC00F2FE82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ethan.StarCat-SparkleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarCat Sparkle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StarCat Sparkle";
+			};
+			name = Debug;
+		};
+		AAD7FC5C2B49AEBC00F2FE82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ethan.StarCat-SparkleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarCat Sparkle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StarCat Sparkle";
+			};
+			name = Release;
+		};
+		AAD7FC5E2B49AEBC00F2FE82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ethan.StarCat-SparkleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "StarCat Sparkle";
+			};
+			name = Debug;
+		};
+		AAD7FC5F2B49AEBC00F2FE82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ethan.StarCat-SparkleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "StarCat Sparkle";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAD7FC282B49AEBA00F2FE82 /* Build configuration list for PBXProject "StarCat Sparkle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAD7FC552B49AEBC00F2FE82 /* Debug */,
+				AAD7FC562B49AEBC00F2FE82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAD7FC572B49AEBC00F2FE82 /* Build configuration list for PBXNativeTarget "StarCat Sparkle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAD7FC582B49AEBC00F2FE82 /* Debug */,
+				AAD7FC592B49AEBC00F2FE82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAD7FC5A2B49AEBC00F2FE82 /* Build configuration list for PBXNativeTarget "StarCat SparkleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAD7FC5B2B49AEBC00F2FE82 /* Debug */,
+				AAD7FC5C2B49AEBC00F2FE82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAD7FC5D2B49AEBC00F2FE82 /* Build configuration list for PBXNativeTarget "StarCat SparkleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAD7FC5E2B49AEBC00F2FE82 /* Debug */,
+				AAD7FC5F2B49AEBC00F2FE82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAD7FC252B49AEBA00F2FE82 /* Project object */;
+}
